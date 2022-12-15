@@ -1,4 +1,4 @@
-module github.com/tamamusiiro/go-micro/common
+module github.com/tamamusiiro/go-micro-common
 
 go 1.17
 
