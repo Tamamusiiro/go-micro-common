@@ -9,7 +9,7 @@ import (
 	"github.com/uber/jaeger-client-go/config"
 )
 
-func NewTrancer(serviceName string, addr string) (opentracing.Tracer, io.Closer, error) {
+func NewTracer(serviceName string, addr string) (opentracing.Tracer, io.Closer, error) {
 	cfg := config.Configuration{
 		ServiceName: serviceName,
 		Sampler: &config.SamplerConfig{
